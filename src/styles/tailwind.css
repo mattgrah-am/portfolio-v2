@@ -9,3 +9,7 @@
 .active-btn {
   @apply bg-neutral-700;
 }
+
+.container {
+  @apply max-w-4xl mx-auto;
+}
