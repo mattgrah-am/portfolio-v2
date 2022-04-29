@@ -8,7 +8,7 @@ import { Projects } from "./componets/Projects";
 
 function App() {
   return (
-    <div className="bg-stone-200 text-stone-900 dark:bg-stone-900 dark:text-stone-100 h-screen">
+    <div className="bg-neutral-200 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100 h-screen">
       <Router>
         <Header />
         <Routes>
