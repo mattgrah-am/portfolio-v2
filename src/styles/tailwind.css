@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply bg-neutral-900 hover:bg-neutral-700  text-neutral-100 font-bold py-1.5 px-3 rounded;
+}
+
+.active-btn {
+  @apply bg-neutral-700;
+}
+
+.container {
+  @apply max-w-4xl mx-auto;
+}

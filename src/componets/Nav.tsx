@@ -1,17 +1,28 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import { ThemeToggle } from "./ThemeToggle";
 
 export const Nav = () => {
   return (
-    <nav className="flex gap-1">
-      <Link className="btn" to="/">
+    <nav className="flex gap-2 ">
+      <NavLink
+        className={(navData) => "btn" + (navData.isActive ? " active-btn" : "")}
+        to="/"
+      >
         Home
-      </Link>
-      <Link className="btn" to="/about">
+      </NavLink>
+      <NavLink
+        className={(navData) => "btn" + (navData.isActive ? " active-btn" : "")}
+        to="/about"
+      >
         About
-      </Link>
-      <Link className="btn" to="/projects">
+      </NavLink>
+      <NavLink
+        className={(navData) => "btn" + (navData.isActive ? " active-btn" : "")}
+        to="/projects"
+      >
         Projects
-      </Link>
+      </NavLink>
+      <ThemeToggle />
     </nav>
   );
 };

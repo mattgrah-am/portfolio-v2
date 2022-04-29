@@ -1,9 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer components {
-  .btn {
-    @apply bg-stone-700 hover:bg-stone-900  text-white font-bold py-1.5 px-3 rounded;
-  }
-}
