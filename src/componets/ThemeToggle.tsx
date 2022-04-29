@@ -9,7 +9,7 @@ export const ThemeToggle = () => {
       {theme === "dark" ? (
         <button
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-          className="text-stone-100 shadow-none p-2 focus:outline-none text-lg rounded-full outline-none ring-transparent cursor-pointer"
+          className="text-stone-900 dark:text-stone-100 shadow-none p-2 focus:outline-none text-lg rounded-full outline-none ring-transparent cursor-pointer"
         >
           <svg
             className="w-5 h-5"
@@ -29,7 +29,7 @@ export const ThemeToggle = () => {
       ) : (
         <button
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-          className="text-stone-100 focus:outline-none shadow-none p-2 text-lg rounded-full outline-none ring-transparent cursor-pointer"
+          className="text-stone-900 dark:text-stone-100 focus:outline-none shadow-none p-2 text-lg rounded-full outline-none ring-transparent cursor-pointer"
         >
           <svg
             className="w-5 h-5"

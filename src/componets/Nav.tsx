@@ -3,24 +3,24 @@ import { ThemeToggle } from "./ThemeToggle";
 
 export const Nav = () => {
   return (
-    <nav className="flex gap-2 ">
+    <nav className="flex items-center gap-4 ">
       <NavLink
         className={(navData) => "btn" + (navData.isActive ? " active-btn" : "")}
         to="/"
       >
-        Home
+        home
       </NavLink>
       <NavLink
         className={(navData) => "btn" + (navData.isActive ? " active-btn" : "")}
         to="/about"
       >
-        About
+        aboutMe
       </NavLink>
       <NavLink
         className={(navData) => "btn" + (navData.isActive ? " active-btn" : "")}
         to="/projects"
       >
-        Projects
+        myWork
       </NavLink>
       <ThemeToggle />
     </nav>
