@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles/tailwind.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Header } from "./componets/Header";
 import { Home } from "./componets/Home";
@@ -7,7 +8,7 @@ import { Projects } from "./componets/Projects";
 
 function App() {
   return (
-    <div className="App">
+    <div className="bg-stone-200 text-stone-900 dark:bg-stone-900 dark:text-stone-100 h-screen">
       <Router>
         <Header />
         <Routes>
