@@ -8,7 +8,7 @@ import { Projects } from "./componets/Projects";
 
 function App() {
   return (
-    <div className="bg-neutral-200 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100 h-screen">
+    <div className="bg-neutral-200 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100 h-screen -scroll-mt-60">
       <Router>
         <Header />
         <Routes>
