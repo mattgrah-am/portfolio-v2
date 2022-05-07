@@ -4,7 +4,7 @@ import dummy from "../img/dummy_200x200.png";
 export const Featured = () => {
   return (
     <>
-      <hr className="mt-20 border-dashed" />
+      <hr className="mt-20 border-dashed border-neutral-800 dark:border-neutral-200" />
       <Link to="/projects">
         <h2 className="mt-16 text-4xl font-bold underline decoration-blue-600">
           Featured Projects
