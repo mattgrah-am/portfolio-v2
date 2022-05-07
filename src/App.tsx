@@ -6,9 +6,9 @@ import { Home } from "./componets/Home";
 import { About } from "./componets/About";
 import { Projects } from "./componets/Projects";
 
-function App() {
+const App = () => {
   return (
-    <div className="bg-neutral-200 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100 h-screen -scroll-mt-60">
+    <>
       <Router>
         <Header />
         <Routes>
@@ -17,8 +17,8 @@ function App() {
           <Route path="/projects" element={<Projects />} />
         </Routes>
       </Router>
-    </div>
+    </>
   );
-}
+};
 
 export default App;
