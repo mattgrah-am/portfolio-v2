@@ -14,7 +14,7 @@ export const Home = () => {
         <span className="underline decoration-blue-600">Problem Solver,</span>{" "}
         Passion Seeker!
       </h2>
-      <p className="mt-8 text-lg leading-relaxed tracking-wider text-neutral-700 dark:text-neutral-300">
+      <p className="about-p">
         I am Melbourne (AU) based software developer, whom has recently
         completed{" "}
         <a
@@ -33,7 +33,7 @@ export const Home = () => {
           “If you do what you love, you'll never work a day in your life.”
         </p>
       </p>
-      <p className="mt-8 text-lg leading-relaxed tracking-wider text-neutral-700 dark:text-neutral-300">
+      <p className="about-p">
         Although I am relatively new to the Tech industry, I bring a wealth of
         experience in a range of soft skills, including problem solving,
         leadership, mentoring, team building, project management, presentations

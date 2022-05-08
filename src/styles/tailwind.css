@@ -11,7 +11,7 @@
 }
 
 .btn {
-  @apply rounded bg-neutral-200 py-1.5 px-3 font-bold text-neutral-900 hover:bg-neutral-800 hover:text-neutral-100 dark:bg-neutral-900 dark:text-neutral-100 dark:hover:bg-neutral-700;
+  @apply rounded bg-neutral-100 py-1.5 px-3 font-bold text-neutral-900 hover:bg-neutral-800 hover:text-neutral-100 dark:bg-neutral-900 dark:text-neutral-100 dark:hover:bg-neutral-700;
 }
 
 .active-btn {
@@ -26,14 +26,6 @@
   @apply h-px w-full bg-gradient-to-r from-red-500 via-blue-600 to-purple-700;
 }
 
-.linkedin {
-  color: #0a66c2;
-}
-
-.twitter {
-  color: #1da1f2;
-}
-
-.github {
-  color: #bd2c00;
+.about-p {
+  @apply mt-8 text-lg leading-relaxed tracking-wider text-neutral-800 dark:text-neutral-200;
 }
