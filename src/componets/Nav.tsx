@@ -14,13 +14,13 @@ export const Nav = () => {
         className={(navData) => "btn" + (navData.isActive ? " active-btn" : "")}
         to="/about"
       >
-        aboutMe
+        about
       </NavLink>
       <NavLink
         className={(navData) => "btn" + (navData.isActive ? " active-btn" : "")}
         to="/projects"
       >
-        myWork
+        projects
       </NavLink>
       <ThemeToggle />
     </nav>
