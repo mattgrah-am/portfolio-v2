@@ -14,7 +14,7 @@ export const Featured = () => {
       </p>
       <div className="my-6 flex gap-4 rounded border border-neutral-400 bg-neutral-300 p-4 dark:border-neutral-700 dark:bg-neutral-800">
         <img
-          className="shadow-md"
+          className="rounded border border-neutral-400 dark:border-neutral-700"
           src="https://dummyimage.com/200x200/cccccc/ffffff"
           alt=""
         />

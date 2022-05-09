@@ -4,7 +4,7 @@ export const About = () => {
       <img
         src="https://dummyimage.com/600x300/cccccc/ffffff"
         alt=""
-        className="w-full rounded"
+        className="w-full rounded border border-neutral-400 dark:border-neutral-700"
       />
       <p className="about-p">
         I am Matt Graham, a Melbourne (AU) based software developer, whom has
