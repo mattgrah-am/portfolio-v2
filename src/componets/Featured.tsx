@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
-import dummy from "../img/dummy_200x200.png";
 
 export const Featured = () => {
   return (
     <>
-      <div className="hr mt-20"></div>
+      <div className="hr mt-16"></div>
       <Link to="/projects">
         <h2 className="mt-16 text-4xl font-bold underline decoration-blue-600">
           Featured Projects
@@ -14,7 +13,11 @@ export const Featured = () => {
         A collection of projects that I have completed.
       </p>
       <div className="my-6 flex gap-4 rounded border border-neutral-400 bg-neutral-300 p-4 dark:border-neutral-700 dark:bg-neutral-800">
-        <img className="shadow-md" src={dummy} alt="" />
+        <img
+          className="rounded border border-neutral-400 dark:border-neutral-700"
+          src="https://dummyimage.com/200x200/cccccc/ffffff"
+          alt=""
+        />
         <div>
           <h3 className="text-3xl font-bold leading-tight text-neutral-800 dark:text-neutral-200">
             Featured Project Title

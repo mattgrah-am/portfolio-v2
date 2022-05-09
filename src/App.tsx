@@ -8,7 +8,7 @@ import { Projects } from "./componets/Projects";
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-neutral-200 pb-4 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
+    <div className="min-h-screen bg-neutral-100 pb-4 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100">
       <Router>
         <Header />
         <Routes>

@@ -10,14 +10,14 @@ export const ThemeToggle = () => {
       {theme === "dark" ? (
         <button
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-          className="text-stone-900 dark:text-stone-100 shadow-none p-2 focus:outline-none text-lg rounded-full outline-none ring-transparent cursor-pointer"
+          className="cursor-pointer rounded-full p-2 text-lg text-stone-900 shadow-none outline-none ring-transparent focus:outline-none dark:text-stone-100"
         >
           <LightSvg />
         </button>
       ) : (
         <button
           onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-          className="text-stone-900 dark:text-stone-100 focus:outline-none shadow-none p-2 text-lg rounded-full outline-none ring-transparent cursor-pointer"
+          className="cursor-pointer rounded-full p-2 text-lg text-stone-900 shadow-none outline-none ring-transparent focus:outline-none dark:text-stone-100"
         >
           <DarkSvg />
         </button>
