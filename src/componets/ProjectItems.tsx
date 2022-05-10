@@ -10,7 +10,17 @@ import tictactoe600x300 from "./img/tictactoe-600x300.webp";
 import tailwindCss200x200 from "./img/tailwindcss-200x200.webp";
 import tailwindCss600x300 from "./img/tailwindcss-600x300.webp";
 
-const projects = [
+interface Projects {
+  title: string;
+  github: string;
+  link: string;
+  id: string;
+  thumb: string;
+  image: string;
+  desc: string;
+}
+
+const projects: Projects[] = [
   {
     title: "I know that song!",
     github: "https://github.com/mattgrah-am/I-know-that-song",
@@ -88,7 +98,7 @@ export const ProjectItem = () => {
             alt=""
             className="mt-4 w-full rounded border border-neutral-400 dark:border-neutral-700"
           />
-          <h3 className="mt-4 text-4xl font-bold">{project.title}</h3>
+          <h3 className="mt-6 text-4xl font-bold">{project.title}</h3>
           <p className="about-p m-auto">
             {project.desc}
             <div className=" mt-4 flex gap-4">
@@ -121,7 +131,7 @@ export const FeaturedItems = () => {
   return (
     <>
       {projects.map(
-        (project: any, index: number) =>
+        (project, index: number) =>
           index < 3 && (
             <a href={"/projects/#" + project.id}>
               <div
@@ -134,7 +144,7 @@ export const FeaturedItems = () => {
                   alt=""
                 />
                 <div>
-                  <h3 className="text-2xl font-bold leading-tight ">
+                  <h3 className="text-2xl font-bold leading-tight">
                     {project.title}
                   </h3>
                   <p className="mt-2 text-base leading-normal tracking-wider">
