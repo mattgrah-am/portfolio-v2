@@ -76,7 +76,6 @@ export const ProjectTiles = () => {
       ))}
     </div>
   );
-  s;
 };
 
 export const ProjectItem = () => {
