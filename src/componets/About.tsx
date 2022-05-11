@@ -137,7 +137,7 @@ export const About = () => {
           </a>
         </li>
         <li className="ml-8 mt-2">
-          Available to review the code at{" "}
+          Available to review on{" "}
           <a
             href="https://github.com/mattgrah-am/portfolio-v2"
             target="_blank"
