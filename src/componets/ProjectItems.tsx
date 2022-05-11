@@ -69,7 +69,7 @@ const projects: Projects[] = [
 ];
 export const ProjectTiles = () => {
   return (
-    <div className="flex flex-wrap gap-4">
+    <div className="flex flex-wrap justify-center gap-4">
       {projects.map((project, index: number) => (
         <a key={index} href={"#" + project.id}>
           <div className="my-6 flex w-40 flex-col gap-4 rounded border border-neutral-400 bg-neutral-300 p-2 text-neutral-900 hover:bg-neutral-400  dark:border-neutral-700  dark:bg-neutral-800 dark:text-neutral-100 dark:hover:bg-neutral-700">
@@ -101,7 +101,7 @@ export const ProjectItem = () => {
           <h3 className="mt-6 text-4xl font-bold">{project.title}</h3>
           <p className="about-p m-auto">
             {project.desc}
-            <div className=" mt-4 flex gap-4">
+            <div className="mt-4 mb-16 flex gap-4">
               <a
                 className="btn flex justify-start gap-1 border border-neutral-700"
                 href={project.link}
@@ -120,7 +120,9 @@ export const ProjectItem = () => {
               </a>
             </div>
           </p>
-          <hr className="mt-16 border-neutral-300 dark:border-neutral-700" />
+          {index <= projects.length - 2 && (
+            <hr className="border-neutral-300 dark:border-neutral-700" />
+          )}
         </div>
       ))}
     </>
