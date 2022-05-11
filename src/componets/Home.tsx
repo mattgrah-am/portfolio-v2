@@ -10,12 +10,12 @@ export const Home = () => {
         <span className=" underline decoration-red-500">Matt Graham.</span>
       </h1>
       <h2 className="mt-4 text-5xl font-bold leading-tight text-neutral-800 dark:text-neutral-200">
-        Software Developer, Career Switcher,{" "}
-        <span className="underline decoration-blue-600">Problem Solver,</span>{" "}
-        Passion Seeker!
+        Software developer, career switcher,{" "}
+        <span className="underline decoration-blue-600">problem solver,</span> &
+        passion seeker.
       </h2>
       <p className="about-p">
-        I am Melbourne (AU) based software developer, whom has recently
+        I am a Melbourne (AU) based software developer, whom has recently
         completed{" "}
         <a
           href="https://generalassemb.ly/education/software-engineering-immersive-remote-flex"
