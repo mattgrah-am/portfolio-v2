@@ -12,10 +12,10 @@ export const Home = () => {
       <h2 className="mt-4 text-5xl font-bold leading-tight text-neutral-800 dark:text-neutral-200">
         Software developer, career switcher,{" "}
         <span className="underline decoration-blue-600">problem solver,</span> &
-        passion seeker.
+        ambition seeker.
       </h2>
       <p className="about-p">
-        I am a Melbourne (AU) based software developer, whom has recently
+        I am a Melbourne (AU) based software developer, who has recently
         completed{" "}
         <a
           href="https://generalassemb.ly/education/software-engineering-immersive-remote-flex"
@@ -27,17 +27,17 @@ export const Home = () => {
           program
         </a>
         . I am also currently in the process of changing careers from Facilities
-        Management to the Tech industry as I am pursuing a career in a field
-        that I am extremely passionate about. As quoted by Marc Anthony;
+        Management to the Tech industry, as I am pursuing a career that I am
+        extremely passionate about. As quoted by Marc Anthony;
         <p className="mt-8 ml-16 font-light italic">
           “If you do what you love, you'll never work a day in your life.”
         </p>
       </p>
       <p className="about-p">
-        Although I am relatively new to the Tech industry, I bring a wealth of
-        experience in a range of soft skills, including problem solving,
-        leadership, mentoring, team building, project management, presentations
-        and much more. This story doesn't end here,{" "}
+        Although I am relatively new to the Tech industry, I offer an extensive
+        array of soft skills, such as problem solving, leadership, mentoring,
+        team building, project management and presenting. The story doesn't end
+        here;{" "}
         <Link
           to="/about"
           className="underline decoration-red-500 decoration-2 hover:no-underline"

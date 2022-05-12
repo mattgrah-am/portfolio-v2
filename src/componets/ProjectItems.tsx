@@ -28,7 +28,7 @@ const projects: Projects[] = [
     id: "iknowthatsong",
     thumb: iknowthatsong200x200,
     image: iknowthatsong600x300,
-    desc: "A simple web app that allows the end user to search for an artist or band, which in turn generates a set of multiple choice questions where the end user is to guess the song whilst a short 30sec music clip is played. If the user guesses correctly the name of the song is highlighted green, if the user selects incorrectly the name of the selected guess is highlighted red. At the end the web app will tell the end user how they did.",
+    desc: "A simple web app that allows the end user to search for an artist or band, which in turn, plays a short 30sec music clip. The end user is then given multiple choice options to guess the title of the song that is playing. If the end user guesses correctly, the name of the song is highlighted green. However, if the end user chooses incorrectly, the selected guess is highlighted in red. At the end, the web app will tell the end user their results.",
   },
   {
     title: "Aka-Izakaya",
@@ -37,7 +37,7 @@ const projects: Projects[] = [
     id: "akaizakaya",
     thumb: akaizakaya200x200,
     image: akaizakaya600x300,
-    desc: "Japanese Resturant website that has the ability to show customers the food and drinks menu. This website also has a Admin portal that gives the client the ability to 'CRUD' the menu items.",
+    desc: "A Japanese Resturant website that has the ability to show customers the food and drinks menu. This website also has an admin portal that gives the client the ability to 'CRUD' the menu items.",
   },
   {
     title: "Job App Track",
@@ -46,7 +46,7 @@ const projects: Projects[] = [
     id: "jobapptrack",
     thumb: jobapptrack200x200,
     image: jobapptrack600x300,
-    desc: "This full stack web app is a job application tracker that can be used to track jobs that the user has applied to, and has the ability to addfurther information or edit existing information to track the progress of the application process.",
+    desc: "This full stack web app is a job application tracker that can be used to track jobs that the user has applied for. It also has the ability to add further information or edit existing information to track the progress of the application.",
   },
   {
     title: "Tic Tac Toe",
@@ -64,7 +64,7 @@ const projects: Projects[] = [
     id: "tailwindtheme",
     thumb: tailwindCss200x200,
     image: tailwindCss600x300,
-    desc: "A simple Tailwind theme that was created whilst learning Tailwind CSS.",
+    desc: "A simple Tailwind theme that was created while learning Tailwind CSS.",
   },
 ];
 export const ProjectTiles = () => {
