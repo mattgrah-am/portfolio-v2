@@ -23,9 +23,9 @@ export const About = () => {
         . I am also currently in the process of changing careers from Facilities
         Management to the Tech industry as I am pursuing a career that I am
         extremely passionate about. As quoted by Marc Anthony;
-        <p className="mt-8 font-light italic">
-          “If you do what you love, you'll never work a day in your life.”
-        </p>
+      </p>
+      <p className="mt-8 font-light italic">
+        “If you do what you love, you'll never work a day in your life.”
       </p>
       <p className="about-p">
         Although I am relatively new to the Tech industry, I offer an extensive

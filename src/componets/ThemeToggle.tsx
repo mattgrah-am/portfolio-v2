@@ -1,9 +1,9 @@
 import { useContext } from "react";
 import { DarkSvg, LightSvg } from "./iconSVG";
-import { ThemeContext } from "./ThemeContext";
+import { ThemeContext, ThemeContextTypes } from "./ThemeContext";
 
 export const ThemeToggle = () => {
-  const { theme, setTheme } = useContext<any>(ThemeContext);
+  const { theme, setTheme } = useContext<ThemeContextTypes>(ThemeContext);
 
   return (
     <div>
