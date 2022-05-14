@@ -5,11 +5,11 @@ import { Social } from "./Social";
 export const Home = () => {
   return (
     <div className="container">
-      <h1 className="text-7xl font-black leading-relaxed text-neutral-800 dark:text-neutral-200">
+      <h1 className="text-5xl font-black leading-normal text-neutral-800 dark:text-neutral-200 sm:text-7xl sm:leading-relaxed">
         Hi, I am{" "}
         <span className=" underline decoration-red-500">Matt Graham.</span>
       </h1>
-      <h2 className="mt-4 text-5xl font-bold leading-tight text-neutral-800 dark:text-neutral-200">
+      <h2 className="mt-4 text-3xl font-bold leading-tight text-neutral-800 dark:text-neutral-200 sm:text-5xl">
         Software developer, career switcher,{" "}
         <span className="underline decoration-blue-600">problem solver,</span> &
         ambition seeker.
@@ -29,7 +29,7 @@ export const Home = () => {
         . I am also currently in the process of changing careers from Facilities
         Management to the Tech industry, as I am pursuing a career that I am
         extremely passionate about. As quoted by Marc Anthony;
-        <p className="mt-8 ml-16 font-light italic">
+        <p className="mt-8 ml-4 font-light italic sm:ml-16">
           “If you do what you love, you'll never work a day in your life.”
         </p>
       </p>

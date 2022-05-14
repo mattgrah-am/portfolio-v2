@@ -3,7 +3,7 @@ import { ThemeToggle } from "./ThemeToggle";
 
 export const Nav = () => {
   return (
-    <nav className="flex items-center gap-4 ">
+    <nav className="flex items-center gap-2 sm:gap-4 ">
       <NavLink
         className={(navData) => "btn" + (navData.isActive ? " active-btn" : "")}
         to="/"

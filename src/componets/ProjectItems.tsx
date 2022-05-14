@@ -69,16 +69,16 @@ const projects: Projects[] = [
 ];
 export const ProjectTiles = () => {
   return (
-    <div className="flex flex-wrap justify-center gap-4">
+    <div className="mb-16 flex flex-wrap justify-center gap-2 sm:gap-4">
       {projects.map((project, index: number) => (
         <a key={index} href={"#" + project.id}>
-          <div className="my-6 flex w-40 flex-col gap-4 rounded border border-neutral-400 bg-neutral-300 p-2 text-neutral-900 hover:bg-neutral-400  dark:border-neutral-700  dark:bg-neutral-800 dark:text-neutral-100 dark:hover:bg-neutral-700">
+          <div className="mt-2 mb-0 flex w-36 flex-col gap-2 rounded border border-neutral-400 bg-neutral-300 p-2 text-neutral-900 hover:bg-neutral-400 dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100  dark:hover:bg-neutral-700 sm:w-40">
             <img
               className="rounded border border-neutral-400 dark:border-neutral-700"
               src={project.thumb}
               alt=""
             />
-            <p className="text-center text-sm font-bold uppercase text-neutral-800 dark:text-neutral-200">
+            <p className="text-center text-xs font-bold uppercase text-neutral-800 dark:text-neutral-200 sm:text-sm">
               {project.title}
             </p>
           </div>
@@ -92,16 +92,16 @@ export const ProjectItem = () => {
   return (
     <>
       {projects.map((project, index: number) => (
-        <div key={index} className="mt-16" id={project.id}>
+        <div key={index} className="mt-10 md:mt-16" id={project.id}>
           <img
             src={project.image}
             alt=""
-            className="mt-4 w-full rounded border border-neutral-400 dark:border-neutral-700"
+            className="w-full rounded border border-neutral-400 dark:border-neutral-700"
           />
-          <h3 className="mt-6 text-4xl font-bold">{project.title}</h3>
+          <h3 className="mt-4 text-4xl font-bold md:mt-6">{project.title}</h3>
           <p className="about-p m-auto">
             {project.desc}
-            <div className="mt-4 mb-16 flex gap-4">
+            <div className="mt-2 mb-10 flex gap-4 md:mb-16 md:mt-4">
               <a
                 className="btn flex justify-start gap-1 border border-neutral-700"
                 href={project.link}
@@ -138,7 +138,7 @@ export const FeaturedItems = () => {
             <a href={"/projects/#" + project.id}>
               <div
                 key={index}
-                className="my-6 flex gap-4 rounded border border-neutral-400 bg-neutral-300 p-4 text-neutral-900 hover:bg-neutral-400  dark:border-neutral-700  dark:bg-neutral-800 dark:text-neutral-100 dark:hover:bg-neutral-700"
+                className="my-6 flex flex-col items-center gap-4 rounded border border-neutral-400 bg-neutral-300 p-4 text-neutral-900 hover:bg-neutral-400 dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100  dark:hover:bg-neutral-700  sm:flex-row sm:items-start sm:text-left"
               >
                 <img
                   className="h-40 w-40 rounded border border-neutral-400 dark:border-neutral-700"

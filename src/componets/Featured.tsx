@@ -6,7 +6,7 @@ export const Featured = () => {
     <>
       <div className="hr mt-16"></div>
       <Link to="/projects">
-        <h2 className="mt-16 text-4xl font-bold underline decoration-blue-600">
+        <h2 className="mt-16 text-3xl font-bold underline decoration-blue-600 sm:text-4xl">
           Featured Projects
         </h2>
       </Link>
