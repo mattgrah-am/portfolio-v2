@@ -135,11 +135,8 @@ export const FeaturedItems = () => {
       {projects.map(
         (project, index: number) =>
           index < 3 && (
-            <a href={"/projects/#" + project.id}>
-              <div
-                key={index}
-                className="my-6 flex flex-col items-center gap-4 rounded border border-neutral-400 bg-neutral-300 p-4 text-neutral-900 hover:bg-neutral-400 dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100  dark:hover:bg-neutral-700  sm:flex-row sm:items-start sm:text-left"
-              >
+            <a key={index} href={"/projects/#" + project.id}>
+              <div className="my-6 flex flex-col items-center gap-4 rounded border border-neutral-400 bg-neutral-300 p-4 text-neutral-900 hover:bg-neutral-400 dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100  dark:hover:bg-neutral-700  sm:flex-row sm:items-start sm:text-left">
                 <img
                   className="h-40 w-40 rounded border border-neutral-400 dark:border-neutral-700"
                   src={project.thumb}
