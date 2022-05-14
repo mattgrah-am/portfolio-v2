@@ -11,7 +11,7 @@
 }
 
 .btn {
-  @apply rounded bg-neutral-100 py-1.5 px-3 font-bold text-neutral-900 hover:bg-neutral-800 hover:text-neutral-100 dark:bg-neutral-900 dark:text-neutral-100 dark:hover:bg-neutral-700;
+  @apply rounded bg-neutral-100 py-1 px-2 font-bold text-neutral-900 hover:bg-neutral-800 hover:text-neutral-100 dark:bg-neutral-900 dark:text-neutral-100 dark:hover:bg-neutral-700 sm:py-1.5 sm:px-3;
 }
 
 .active-btn {
@@ -19,7 +19,7 @@
 }
 
 .container {
-  @apply mx-auto max-w-4xl pt-36;
+  @apply mx-auto max-w-4xl p-3 pt-36 sm:p-0;
 }
 
 .hr {

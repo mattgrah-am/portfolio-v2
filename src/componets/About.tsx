@@ -6,7 +6,7 @@ export const About = () => {
       <img
         src={aboutimg}
         alt=""
-        className="float-right ml-6 mt-4 w-2/5 rounded border border-neutral-400 dark:border-neutral-700"
+        className="ml-0 mt-4 rounded border border-neutral-400 dark:border-neutral-700 sm:float-right sm:ml-6 sm:w-2/5"
       />
       <p className="text-lg leading-relaxed tracking-wider text-neutral-800 dark:text-neutral-200">
         I am Matt Graham, a Melbourne (AU) based software developer, who has
