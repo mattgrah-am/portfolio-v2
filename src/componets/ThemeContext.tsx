@@ -1,5 +1,13 @@
 import { createContext, useEffect, useState } from "react";
 
+interface ThemeProviderType {
+  children: JSX.Element;
+}
+export interface ThemeContextTypes {
+  theme: string;
+  setTheme: (theme: string) => void;
+}
+
 const getInitialTheme = () => {
   if (typeof window !== "undefined" && window.localStorage) {
     const storedPrefs = window.localStorage.getItem("current-theme");
@@ -13,9 +21,12 @@ const getInitialTheme = () => {
   return "light";
 };
 
-export const ThemeContext = createContext({});
+export const ThemeContext = createContext<ThemeContextTypes>({
+  theme: "",
+  setTheme: () => "",
+});
 
-export const ThemeProvider = ({ initialTheme, children }: any) => {
+export const ThemeProvider = ({ children }: ThemeProviderType) => {
   const [theme, setTheme] = useState(getInitialTheme);
 
   const checkTheme = (existing: string) => {
@@ -27,10 +38,6 @@ export const ThemeProvider = ({ initialTheme, children }: any) => {
 
     localStorage.setItem("current-theme", existing);
   };
-
-  if (initialTheme) {
-    checkTheme(initialTheme);
-  }
 
   useEffect(() => {
     checkTheme(theme);

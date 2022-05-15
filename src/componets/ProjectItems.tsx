@@ -99,27 +99,25 @@ export const ProjectItem = () => {
             className="w-full rounded border border-neutral-400 dark:border-neutral-700"
           />
           <h3 className="mt-4 text-4xl font-bold md:mt-6">{project.title}</h3>
-          <p className="about-p m-auto">
-            {project.desc}
-            <div className="mt-2 mb-10 flex gap-4 md:mb-16 md:mt-4">
-              <a
-                className="btn flex justify-start gap-1 border border-neutral-700"
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Link <LinkSvg />
-              </a>
-              <a
-                href={project.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn flex justify-start gap-1 border border-neutral-700"
-              >
-                Code <LinkSvg />
-              </a>
-            </div>
-          </p>
+          <p className="about-p m-auto">{project.desc}</p>
+          <div className="mt-2 mb-10 flex gap-4 md:mb-16 md:mt-4">
+            <a
+              className="btn flex justify-start gap-1 border border-neutral-700"
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Link <LinkSvg />
+            </a>
+            <a
+              href={project.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn flex justify-start gap-1 border border-neutral-700"
+            >
+              Code <LinkSvg />
+            </a>
+          </div>
           {index <= projects.length - 2 && (
             <hr className="border-neutral-300 dark:border-neutral-700" />
           )}
