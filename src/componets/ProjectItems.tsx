@@ -102,7 +102,7 @@ export const ProjectItem = () => {
           <p className="about-p m-auto">{project.desc}</p>
           <div className="mt-2 mb-10 flex gap-4 md:mb-16 md:mt-4">
             <a
-              className="btn flex justify-start gap-1 border border-neutral-700"
+              className="linkbtn"
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
@@ -113,7 +113,7 @@ export const ProjectItem = () => {
               href={project.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn flex justify-start gap-1 border border-neutral-700"
+              className="linkbtn"
             >
               Code <LinkSvg />
             </a>
