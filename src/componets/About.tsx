@@ -2,7 +2,7 @@ import aboutimg from "./img/aboutimg.webp";
 
 export const About = () => {
   return (
-    <div className="container">
+    <div className="fade-transition container">
       <img
         src={aboutimg}
         alt=""

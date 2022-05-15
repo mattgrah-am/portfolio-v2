@@ -2,7 +2,7 @@ import { ProjectItem, ProjectTiles } from "./ProjectItems";
 
 export const Projects = () => {
   return (
-    <div className="container">
+    <div className="fade-transition container">
       <h2 className="text-5xl font-bold">Projects</h2>
       <p className="about-p">
         Starting with a simple Tic Tac Toe game, to a Job Application Tracker,

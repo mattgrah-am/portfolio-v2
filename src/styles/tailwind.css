@@ -29,3 +29,20 @@
 .about-p {
   @apply mt-8 text-lg leading-relaxed tracking-wider text-neutral-800 dark:text-neutral-200;
 }
+
+.fade-transition {
+  opacity: 1;
+  animation: fade 0.5s linear;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
