@@ -4,7 +4,7 @@ import { Social } from "./Social";
 
 export const Home = () => {
   return (
-    <div className="container">
+    <div className="fade-transition container">
       <h1 className="text-5xl font-black leading-normal text-neutral-800 dark:text-neutral-200 sm:text-7xl sm:leading-relaxed">
         Hi, I am{" "}
         <span className=" underline decoration-red-500">Matt Graham.</span>
