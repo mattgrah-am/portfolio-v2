@@ -30,7 +30,7 @@ export const About = () => {
       <p className="about-p">
         Although I am relatively new to the Tech industry, I offer an extensive
         array of soft skills, such as problem solving, leadership, mentoring,
-        team building, project management and presenting.
+        team building, project management and presentations.
       </p>
       <p className="about-p">
         I have always had a keen interest in technology, since getting my first
