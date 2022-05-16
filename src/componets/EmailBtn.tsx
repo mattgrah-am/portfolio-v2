@@ -8,7 +8,7 @@ export const EmailBtn = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      email me <MailSvg />
+      Email <MailSvg />
     </a>
   );
 };
