@@ -42,7 +42,7 @@ const projects: Projects[] = [
   {
     title: "Job App Track",
     github: "https://github.com/mattgrah-am/jobapptrack",
-    link: "https://floating-forest-21500.herokuapp.com/",
+    link: "https://job-app-track.herokuapp.com/",
     id: "jobapptrack",
     thumb: jobapptrack200x200,
     image: jobapptrack600x300,
